@@ -3,5 +3,5 @@
 salario = float(input('Qual o valor do salário: '))
 p_aumento = int(input('Qual a porcentagem do aumento: '))
 aumento = (p_aumento / 100) * salario
-print('O valor do aumento é de R$ {}'.format(aumento))
-print('O valor do novo salário com aumento é de R$ {}'.format(salario + aumento))
+print('O valor do aumento é de R$ {:.2f}'.format(aumento))
+print('O valor do novo salário com aumento é de R$ {:.2f}'.format(salario + aumento))
