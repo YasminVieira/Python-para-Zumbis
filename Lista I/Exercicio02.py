@@ -1,4 +1,4 @@
-# Escreva um programa que leia um valor em metros e o exiba convertido em milímetros
+# Escreva um programa que leia um valor em metros e o exiba convertido em milímetros:
 
 m = int(input('Digite um número em metros: '))
 mm = m * 1000
