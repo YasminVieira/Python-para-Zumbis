@@ -1,4 +1,4 @@
-# Converta uma temperatura digitada em Celsius para Fahrenheit
+# Converta uma temperatura digitada em Celsius para Fahrenheit:
 # F = (9 * C / 5) + 32
 
 c = int(input('Digite um valor para temperatura em °C: '))
