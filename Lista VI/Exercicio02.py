@@ -24,7 +24,6 @@ def test(obtido, esperado):
          % (prefixo, repr(obtido), repr(esperado)))
 
 def main():
-  print ()
   print ('Alunos problema')
   test(alunos_problema(True, True), True)
   test(alunos_problema(False, False), True)

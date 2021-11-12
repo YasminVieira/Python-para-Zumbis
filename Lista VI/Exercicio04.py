@@ -21,7 +21,6 @@ def test(obtido, esperado):
          % (prefixo, repr(obtido), repr(esperado)))
 
 def main():
-  print ()
   print ('Diff21')
   test(diff21(19), 2)
   test(diff21(10), 11)

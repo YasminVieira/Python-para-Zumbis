@@ -21,7 +21,6 @@ def test(obtido, esperado):
          % (prefixo, repr(obtido), repr(esperado)))
 
 def main():
-  print ()
   print ('Troca letras')
   test(troca('code'), 'eodc')	    
   test(troca('a'), 'a')
