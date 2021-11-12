@@ -17,7 +17,6 @@ def test(obtido, esperado):
          % (prefixo, repr(obtido), repr(esperado)))
 
 def main():
-  print ()
   print ('Apaga')
   test(apaga('kitten', 1), 'ktten')
   test(apaga('kitten', 0), 'itten') 
