@@ -20,7 +20,6 @@ def test(obtido, esperado):
          % (prefixo, repr(obtido), repr(esperado)))
 
 def main():
-  print ()
   print ('Soma dobro')
   test(soma_dobro(1, 2), 3)
   test(soma_dobro(3, 2), 5)
